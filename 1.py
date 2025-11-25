@@ -28,16 +28,6 @@ def test_2():
         else:
             print("y is odd")
 
-    # Line 31–45: 第二個迴圈
-    for j in range(3):
-        print("Loop2 -> j =", j)
-        val = j ** 2
-		# TESTEST
-        print("j squared =", val)
-        print("ConcatConcatConcatConcat:", c + str(val))
-        new_list = [n + j for n in e]
-        print("new_list =", new_list)
-
     # Line 46–60: dictionary 操作
     data = {
         "name": "test33333333333333",
@@ -65,7 +55,42 @@ def test_2():
         if k % 3 == 0:
             print("k divisible by 3")
 
+	    # Line 31–45: 第二個迴圈
+    for j in range(3):
+        print("Loop2 -> j =", j)
+        val = j ** 2
+		# TESTEST
+        print("j squared =", val)
+        print("ConcatConcatConcatConcat:", c + str(val))
+        new_list = [n + j for n in e]
+        print("new_list =", new_list)
+
     # Line 96–100: 結尾
+    print("End of TEST2 part 11111")
+    print("End of TEST2 part 22222")
+    print("End of TEST2 part 33333")
+    print("End of TEST2 part 44444")
+    print("TEST2 finished")
+	print("End of TEST2 part 11111")
+    print("End of TEST2 part 22222")
+    print("End of TEST2 part 33333")
+    print("End of TEST2 part 44444")
+    print("TEST2 finished")
+    print("End of TEST2 part 11111")
+    print("End of TEST2 part 22222")
+    print("End of TEST2 part 33333")
+    print("End of TEST2 part 44444")
+    print("TEST2 finished")
+    print("End of TEST2 part 11111")
+    print("End of TEST2 part 22222")
+    print("End of TEST2 part 33333")
+    print("End of TEST2 part 44444")
+    print("TEST2 finished")
+    print("End of TEST2 part 11111")
+    print("End of TEST2 part 22222")
+    print("End of TEST2 part 33333")
+    print("End of TEST2 part 44444")
+    print("TEST2 finished")
     print("End of TEST2 part 11111")
     print("End of TEST2 part 22222")
     print("End of TEST2 part 33333")
