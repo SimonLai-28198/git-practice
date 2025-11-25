@@ -73,8 +73,11 @@ def test_2():
     print("TEST2 finished")
 
 def test_3():
-	for i in range(0, 10, 1):
-    	print(i, end=", ")
-	print("TEST3")
+    # Line 96–100: 結尾
+    print("End of TEST3 part 11111")
+    print("End of TEST3 part 22222")
+    print("End of TEST3 part 33333")
+    print("End of TEST3 part 44444")
+    print("TEST3 finished")
 
 print('hello')
